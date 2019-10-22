@@ -11,4 +11,6 @@ all :
 	cat vowels.hs >> Vowels.hs
 	echo "module Insertionsort where" > Insertionsort.hs
 	cat insertionsort.hs >> Insertionsort.hs
+	echo "module Digitize where" > Digitize.hs
+	cat digitize.hs >> Digitize.hs
 	ghc test.hs
